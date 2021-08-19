@@ -1,2 +1,2 @@
 # InputTester
-Simple testeador de teclado y raton (y en un futuro a otros dispositivos de entrada) para comprobar que no tengan algun desperfecto.
+Simple testeador de teclado raton y otros dispositivos de entrada (en un futuro) para comprobar que no tengan algun desperfecto.
