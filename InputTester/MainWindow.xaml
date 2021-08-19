@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InputTester"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="InputTester" Height="450" Width="800">
+    <StackPanel>
+        <Grid  Height="380">
 
-    </Grid>
+        </Grid>
+        <TabControl VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  TabStripPlacement="Bottom" >
+            <TabItem Header="Teclado" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+                <Grid Background="#FFE5E5E5" VerticalAlignment="Stretch"/>
+            </TabItem>
+            <TabItem Header="Raton" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+                <Grid Background="#FFE5E5E5" VerticalAlignment="Stretch"/>
+            </TabItem>
+            <TabItem Header="Redes" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Entradas Usb" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="22" >
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Pantallas" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Pantallas" VerticalAlignment="Stretch" Height="46" Width="96" FontFamily="Leelawadee" FontSize="24" >
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+        
+    </StackPanel>
 </Window>
