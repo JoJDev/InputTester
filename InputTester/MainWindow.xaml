@@ -6,27 +6,161 @@
         xmlns:local="clr-namespace:InputTester"
         mc:Ignorable="d"
         Title="InputTester" Height="450" Width="800">
-    <StackPanel>
-        <Grid  Height="380">
+    <StackPanel >
+        
+        <TabControl VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  TabStripPlacement="Bottom"  Height="auto">
+            <TabItem Header="Teclado" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="auto" FontFamily="Leelawadee" FontSize="24" >
+                <StackPanel Background="#FFE5E5E5" VerticalAlignment="Stretch" >
+                    <WrapPanel Margin="10">
 
-        </Grid>
-        <TabControl VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  TabStripPlacement="Bottom" >
-            <TabItem Header="Teclado" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+                        <TextBlock FontSize="12" Margin="10">Tipo de teclado</TextBlock>
+                            <ComboBox FontSize="14" VerticalContentAlignment="Center">
+                                <ComboBoxItem Content="Teclado QWERTY Latino" IsSelected="True" />
+                                <ComboBoxItem Content="Teclado QWERTY España"/>
+                                <ComboBoxItem Content="Teclado QWERTY Ingles"/>
+                            </ComboBox>
+                        
+                    </WrapPanel>
+
+                    <StackPanel Margin="40" >
+                        <WrapPanel></WrapPanel>
+                        <WrapPanel>
+                            <Button FontSize="12">
+                                <DockPanel Width="25">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">ª</TextBlock>
+                                    <TextBlock DockPanel.Dock="Left" Margin="4,0,0,0">º</TextBlock>
+                                    <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0,0,4,0">\</TextBlock>
+                                </DockPanel>
+                            </Button>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Button FontSize="12">
+                                <DockPanel Width="35">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">Tab</TextBlock>
+                                </DockPanel>
+                            </Button>
+                            <Button FontSize="12">
+                                <DockPanel Width="25">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">ª</TextBlock>
+                                    <TextBlock DockPanel.Dock="Left" Margin="4,0,0,0">º</TextBlock>
+                                    <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0,0,4,0">\</TextBlock>
+                                </DockPanel>
+                            </Button>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Button FontSize="10">
+                                <DockPanel Width="40">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">Bloq</TextBlock>
+                                    <TextBlock DockPanel.Dock="Left" Margin="4,0,0,0">Mayus</TextBlock>
+                                </DockPanel>
+                            </Button>
+                            <Button FontSize="12">
+                                <DockPanel Width="25">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">ª</TextBlock>
+                                    <TextBlock DockPanel.Dock="Left" Margin="4,0,0,0">º</TextBlock>
+                                    <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0,0,4,0">\</TextBlock>
+                                </DockPanel>
+                            </Button>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Button FontSize="10">
+                                <DockPanel Width="25">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="3,0,0,0">Shift</TextBlock>
+                                </DockPanel>
+                            </Button>
+                            <Button FontSize="12">
+                                <DockPanel Width="25">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">ª</TextBlock>
+                                    <TextBlock DockPanel.Dock="Left" Margin="4,0,0,0">º</TextBlock>
+                                    <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0,0,4,0">\</TextBlock>
+                                </DockPanel>
+                            </Button>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Button FontSize="12">
+                                <DockPanel Width="35">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">Ctrl</TextBlock>
+                                </DockPanel>
+                            </Button>
+                            <Button FontSize="12">
+                                <DockPanel Width="25">
+                                    <TextBlock DockPanel.Dock="Top"  Margin="4,0,0,0">ª</TextBlock>
+                                    <TextBlock DockPanel.Dock="Left" Margin="4,0,0,0">º</TextBlock>
+                                    <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0,0,4,0">\</TextBlock>
+                                </DockPanel>
+                            </Button>
+                        </WrapPanel>
+                    </StackPanel>
+                    <!--<Grid Margin="30" Height="300" Width="500">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Button Grid.Column="0" Grid.Row="0" Margin="0" >
+                            <Grid Width="35">
+                                <Grid.ColumnDefinitions >
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="ª" />
+                                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left">º</TextBlock>
+                                <TextBlock Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Right">\</TextBlock>
+                            </Grid>
+                        </Button>
+                        <Button Grid.Column="0" Grid.Row="1" Margin="0" Width="50">
+                            <Grid Width="35">
+                                <Grid.ColumnDefinitions >
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="ª" />
+                                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left">º</TextBlock>
+                                <TextBlock Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Right">\</TextBlock>
+                            </Grid>
+                        </Button>
+                    </Grid>-->
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Raton" VerticalAlignment="Stretch" Height="auto" Width="140" FontFamily="Leelawadee" FontSize="24" >
                 <Grid Background="#FFE5E5E5" VerticalAlignment="Stretch"/>
             </TabItem>
-            <TabItem Header="Raton" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
-                <Grid Background="#FFE5E5E5" VerticalAlignment="Stretch"/>
-            </TabItem>
-            <TabItem Header="Redes" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+            <TabItem Header="Camara" VerticalAlignment="Stretch" Height="auto" Width="140"  FontFamily="Leelawadee" FontSize="24">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Entradas Usb" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="22" >
+            <TabItem Header="Entradas Usb" VerticalAlignment="Stretch" Height="auto" Width="140" FontFamily="Leelawadee" FontSize="22" >
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Pantallas" VerticalAlignment="Stretch" Height="46" Width="140" FontFamily="Leelawadee" FontSize="24" >
+            <TabItem Header="Microfono" VerticalAlignment="Stretch" Height="auto" Width="140" FontFamily="Leelawadee" FontSize="24" >
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Pantallas" VerticalAlignment="Stretch" Height="46" Width="96" FontFamily="Leelawadee" FontSize="24" >
+            <TabItem Header="Ajustes" VerticalAlignment="Stretch" Height="auto" Width="96" FontFamily="Leelawadee" FontSize="24" >
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>

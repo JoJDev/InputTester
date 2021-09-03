@@ -1,0 +1,651 @@
+{
+  "teclado" :{
+    "nombreDisposicion": "QWERTY_Español",
+    "teclas": [
+      [//fila 0 F1-F12
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "esc",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F1",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F2",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F3",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F4",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F5",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F6",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F7",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F8",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F9",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F10",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F11",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F11",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "F12",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "ImpPant",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "BloqDespl",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Pausa",
+            "valorAlterno": ""
+          }
+        }
+      ],
+      [// Fila 1 
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "ª",
+            "valorDefecto": "º",
+            "valorAlterno": "\\"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "!",
+            "valorDefecto": "1",
+            "valorAlterno": "|"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "\"",
+            "valorDefecto": "2",
+            "valorAlterno": "@"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "·",
+            "valorDefecto": "3",
+            "valorAlterno": "#"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "$",
+            "valorDefecto": "4",
+            "valorAlterno": "€"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "&",
+            "valorDefecto": "6",
+            "valorAlterno": "¬"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "/",
+            "valorDefecto": "7",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "(",
+            "valorDefecto": "8",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": ")",
+            "valorDefecto": "9",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "=",
+            "valorDefecto": "0",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "?",
+            "valorDefecto": "'",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "¿",
+            "valorDefecto": "¡",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 50,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Delete",
+            "valorAlterno": ""
+          }
+        }
+      ],
+      [// Fila 2
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Tab",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "Q",
+            "valorDefecto": "q",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "W",
+            "valorDefecto": "w",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "E",
+            "valorDefecto": "e",
+            "valorAlterno": "€"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "R",
+            "valorDefecto": "r",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "T",
+            "valorDefecto": "t",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "Y",
+            "valorDefecto": "y",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "U",
+            "valorDefecto": "u",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "I",
+            "valorDefecto": "i",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "O",
+            "valorDefecto": "o",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "P",
+            "valorDefecto": "p",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "^",
+            "valorDefecto": "`",
+            "valorAlterno": "["
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "*",
+            "valorDefecto": "+",
+            "valorAlterno": "]"
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Enter1",
+            "valorAlterno": ""
+          }
+        }
+      ],
+      [ // Fila 3
+        {
+          "tamaño": 35,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "BloqMayus",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "A",
+            "valorDefecto": "a",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "S",
+            "valorDefecto": "s",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "D",
+            "valorDefecto": "d",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "F",
+            "valorDefecto": "f",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "G",
+            "valorDefecto": "g",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "H",
+            "valorDefecto": "h",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "J",
+            "valorDefecto": "j",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "K",
+            "valorDefecto": "k",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "L",
+            "valorDefecto": "l",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "Ñ",
+            "valorDefecto": "ñ",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "¨",
+            "valorDefecto": "´",
+            "valorAlterno": "{"
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "Ç",
+            "valorDefecto": "ç",
+            "valorAlterno": "}"
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "Ç",
+            "valorDefecto": "ç",
+            "valorAlterno": "}"
+          }
+        }
+      ],
+      [// Fila 4
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Shift",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": ">",
+            "valorDefecto": "<",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "Z",
+            "valorDefecto": "z",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "X",
+            "valorDefecto": "x",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "C",
+            "valorDefecto": "c",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "V",
+            "valorDefecto": "v",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "B",
+            "valorDefecto": "b",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "N",
+            "valorDefecto": "n",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "M",
+            "valorDefecto": "m",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": ";",
+            "valorDefecto": ",",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": ":",
+            "valorDefecto": ".",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 25,
+          "valores": {
+            "valorMayus": "_",
+            "valorDefecto": "-",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 75,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Shitf",
+            "valorAlterno": ""
+          }
+        }
+      ],
+      [ // Fila 5
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Ctrl",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Windows",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Alt",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 275,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": " ",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Alt Gr",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Windows",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 30,
+          "valores": {
+            "valorMayus": "",
+            "valorDefecto": "Menu",
+            "valorAlterno": ""
+          }
+        },
+        {
+          "tamaño": 35,
+          "valores": {
+            "valorMayus": "Ctrl",
+            "valorDefecto": "8",
+            "valorAlterno": ""
+          }
+        }
+      ]
+    ]
+  }
+}
